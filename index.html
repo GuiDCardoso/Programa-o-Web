@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML CSS JAVASCRIPT</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="PAGES/sobre.html">Sobre</a></li>
+                <li><a href="PAGES/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="darkmode">
+            <label for="darkmodeToggle">Modo escuro</label>
+            <input type="checkbox" id="darkmodeToggle">
+        </div>
+    </header>
+    <main>
+        <div class="visit-counter">
+            Número de visitas: <span id="visitCount">0</span>
+        </div>
+        <h1>Bem-vindo ao curso de HTML CSS JAVASCRIPT</h1>
+
+        <section class="destaque">
+            <h2>Tópicos do Curso</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>HTML Básico</h3>
+                    <p>Aprenda a estrutura fundamental da web com HTML 5. Explore rags semânticas, formulários,
+                        e as melhores práticas de marcação.
+                    </p>
+                    <ul>
+                        <li>Estruturas básicas</li>
+                        <li>Tags semânticas</li>
+                        <li>Formulários</li>
+                        <li>SEO básico</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>CSS Fundamentos</h3>
+                    <p>Domine os conceitos essenciais de estilização com CSS. De seletores básicos e layouts
+                        complexos com Flebox e Grid.
+                    </p>
+                    <ul>
+                        <li>Seletores e propriedades</li>
+                        <li>Flexbox e Grid</li>
+                        <li>Responsividade</li>
+                        <li>Animações</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="proxima-turma">
+            <h2>Próxima Turma</h2>
+            <div class="info-turma">
+                <p><strong>Data: </strong> 15 de Março de 2024</p>
+                <p><strong>Horário: </strong> 09:00 - 17:00</p>
+                <p><strong>Duração: </strong>8 horas</p>
+                <p><strong>Vagas: </strong>20 alunos</p>
+            </div>
+            <a href="PAGES/contato.html" class="btn-inscricao">Fazer Inscrição</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Curso HTML e CSS</p>
+    </footer>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
